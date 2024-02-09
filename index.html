@@ -1,0 +1,138 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Create a HTML Form</title>
+</head>
+<body>
+    <form>
+        <p> Card#:<input name="Card#" type=”text” value="" /></p>
+        <p> CVC#:<input name="CVC#" type=”text” value="" /></p>
+        <p> Amount:<input name="Amount" type=”text” value="" /></p>
+        <p>First Name: <input name="Firstname" type="text" value="" /></p>
+        <p> Last Name:<input name="Lastname" type=”text” value="" /></p>
+        <p> City:<input name="City" type=”text” value="" /></p>
+        <p> State:<input name="State" type=”text” value="" /></p>
+        <p> Postal Code:<input name="Postal Code" type=”text” value="" /></p>
+        <p> We Accept:<input name="We Accept" type=”text” value="" /></p>
+        <p> Message:<input name="Message" type=”text” value="" /></p>
+        <p> Message:<input name="Message" type=”text” value="" /></p>
+
+        <input type="submit" />
+        </form>   
+</body>
+</html>  -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="form-row">
+          <div class="col">
+              <input type="text" class="form-control" placeholder="Card#">
+              <input type="text" class="form-control" placeholder="CVC#">
+              <input type="text" class="form-control" placeholder="Amount">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+              <input type="text" class="form-control" placeholder="Last name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="City">
+            <input type="text" class="form-control" placeholder="State">
+            <input type="text" class="form-control" placeholder="Postal Code">
+
+          </div>
+        </div>
+      </form>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<div class="container">
+
+  <body>
+    <div class="col-12">
+      <label for="inputButtons" class="form-label"></label>
+      <p class="h2">Payment form example</p>
+    </div>
+    <form class="row g-3">
+      <div class="col-12">
+        <div class="container  p-2 mb-2 bg-danger text-white">Some fields are missing</div>
+        <label for="inputWarning" class="form-label"></label>
+      </div>
+      <div class="col-md-4">
+        <label for="inputCard#4" class="form-label">Card#</label>
+        <input type="text" class="form-control" placeholder="XXXXXXXXXXXXXXXXXX" aria-label="Card#">
+      </div>
+      <div class="col-md-4">
+        <label for="inputCVC#4" class="form-label">CVC#</label>
+        <input type="text" class="form-control" placeholder="000" aria-label="CVC#">
+      </div>
+      <div class="col-md-4">
+        <label for="Amount" class="form-label">Amount</label>
+        <input type="text" class="form-control" placeholder="$ Amount" aria-label="Amount">
+      </div>
+      <div class="col-md-6">
+        <label for="inputFirstName4" class="form-label">First Name</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputLastName4" class="form-label">Last Name</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-md-4">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Pick a State">
+      </div>
+      <div class="col-md-4">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-6">
+        <label for="We Accept" class="form-label">We Accept:</label>
+        <input type="text" class="form-control" id="inputAddress" class="list-group list-group-horizontal-lg" <a
+          href="https://www.shift4shop.com/credit-card-logos.html"><img alt="Credit Card Logos"
+          title="Credit Card Logos" src="https://www.shift4shop.com/images/credit-card-logos/cc-sm-4_b.png" width="198"
+          height="28" border="0" /></a></input>
+      </div>
+      <div class="col-4">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        Add any notes here.
+      </div>
+      <div class="col-12">
+        <label for="inputButtons" class="form-label"></label>
+        <div class="col-12"> </div>
+        <div class="d-grid gap-3 d-md-flex justify-content-md-end">
+          <input type="text" class="form-control" id="inputAddress" placeholder="">
+          <button class="btn btn-secondary me-md-2" type="button">Cancel </button>
+          <button class="btn btn-primary" type="button">Send</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</div>
+
+</html>
